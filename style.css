@@ -1,0 +1,17 @@
+/* goole font poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.button {
+  text-decoration: none;
+  border-radius: 15px;
+  background-image: linear-gradient(rgb(224, 78, 224), rgb(89, 28, 109));
+  color: white;
+  padding: 5px 28px;
+}
+.fast-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
