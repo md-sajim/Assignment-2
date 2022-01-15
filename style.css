@@ -15,6 +15,17 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+/********************************
+---------------------------------
+ popular-collection section start
+---------------------------------
+*********************************/
+.popular-collection {
+  width: 1047px;
+  height: 1662px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
 .fas {
   color: orange;
 }
@@ -23,4 +34,16 @@ body {
 }
 span {
   font-size: 14px;
+}
+.product-list {
+  margin: 50px;
+  padding: 0;
+}
+.product-list img {
+  width: 300px;
+  height: 256px;
+}
+.star-mark {
+  margin: 0.8px;
+  padding: 0px;
 }
