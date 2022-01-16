@@ -1,49 +1,181 @@
-/* goole font poppins */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
-
+/**********************
+-----------------------
+     font style
+-----------------------
+***********************/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+/**********************
+-----------------------
+          body
+-----------------------
+***********************/
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/***********************
+------------------------
+    Header Section
+------------------------
+************************/
+.header-nav {
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.header-influ {
+  text-align: center;
+  margin-left: 90px;
+}
+.header-home {
+  margin-right: 30px;
+  margin-top: 23px;
+  font-size: 20px;
+}
+.header-home a {
+  margin-right: 7px;
+  text-decoration: none;
+  color: white;
+}
+.header-home a:hover {
+  color: blue;
+}
+.iconnav:hover {
+  color: blue;
+  transform: scale(1.5);
+}
+/***********************
+------------------------
+     main  / section
+    Influencer start
+------------------------
+************************/
+.influ-main-div {
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+}
+.influencer-journey-section {
+  width: 50%;
+  margin-left: 300px;
+  margin-top: 200px;
+}
+.influencer-header {
+  margin: 0;
+  padding: 0;
+}
+.influencer-pahagraph {
+  color: grey;
+  font-weight: 700;
+  flex-wrap: wrap;
 }
 .button {
   text-decoration: none;
-  border-radius: 15px;
+  border-radius: 19px;
   background-image: linear-gradient(rgb(224, 78, 224), rgb(89, 28, 109));
   color: white;
-  padding: 5px 28px;
+  padding: 10px 28px;
 }
-.fast-div {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.button:hover {
+  background-image: linear-gradient(rgb(63, 38, 155), rgb(175, 51, 194));
 }
-/********************************
----------------------------------
- popular-collection section start
----------------------------------
-*********************************/
+.influencer-camera-section {
+  width: 50%;
+  margin-left: 300px;
+}
+.influencer-camera-section img:hover {
+  transform: scale(1.2);
+  transition: trasform 10s ease-in-out;
+}
+
+/**********************
+-----------------------
+  Popular Collection
+-----------------------
+***********************/
+.secend-header {
+  text-align: center;
+  margin-top: 75px;
+}
 .popular-collection {
-  width: 1047px;
-  height: 1662px;
+  width: 1080px;
+  height: 1470px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-}
-.fas {
-  color: orange;
-}
-.full {
-  color: gray;
-}
-span {
-  font-size: 14px;
-}
-.product-list {
-  margin: 50px;
-  padding: 0;
+  margin-top: 10px;
+  margin-left: 420px;
+  margin-bottom: 50px;
 }
 .product-list img {
   width: 300px;
   height: 256px;
 }
+.product-list img:hover {
+  transform: scale(1.1);
+}
+.product-list {
+  height: 420px;
+  width: 300px;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0px 10px 10px 10px #f3f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+}
 .star-mark {
   margin: 0.8px;
   padding: 0px;
+}
+.fa-star {
+  color: orange;
+}
+.fa-star-half {
+  color: orange;
+}
+.seemore-button-div {
+  text-align-last: right;
+  margin-right: 500px;
+  margin-bottom: 30px;
+}
+.seemore-button-div a {
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 19px;
+  padding: 8px 30px;
+  background-color: plum;
+}
+.seemore-button-div a:hover {
+  color: white;
+  border: 2px solid rgb(122, 16, 192);
+  background-color: rgb(218, 85, 218);
+}
+
+/*************************
+--------------------------
+    footer section
+--------------------------
+**************************/
+.footer {
+  text-align: center;
+  color: white;
+  background-color: rgb(40, 37, 189);
+  padding-top: 15px;
+}
+.footer p {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+}
+.footer-icon {
+  padding: 25px;
+  font-size: 25px;
+}
+.fab {
+  margin: 5px;
+  color: white;
+}
+.fab:hover {
+  transform: scale(1.2);
 }
